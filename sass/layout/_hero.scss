@@ -77,6 +77,9 @@
 }
 
 .hero__title {
+  @media (max-width: 1199px) {
+    @include text(26px, 1.6, 900);
+  }
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;

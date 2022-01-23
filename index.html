@@ -11,9 +11,9 @@
     rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link rel="stylesheet" href="./css/main.min.css" />
-</head>
 
 <title>Studio</title>
+</head>
 
 <!--Шапка сайта-->
 
@@ -36,7 +36,7 @@
                     <use class="icon-cross" href="./images/symbol-defs.svg#icon-close-1"></use>
                               </svg>
                 </button>
-                <div class="menu-container" data-menu>
+                <div class="menu-container" id="menu-container" data-menu>
                     <nav class="">
                         <ul class="site-nav">
                             <li class="site-nav__item"><a href="./index.html" class="site-nav__link-main site-nav__link-current site-nav__link__color-change">Студия</a></li>
@@ -101,7 +101,7 @@
             <ul class="features-list">
                 <li class="features-card">
                     <div class="features-card__item">
-                         <svg class="features-card__icon"width="70"; height="70";>
+                         <svg class="features-card__icon" width="70px" height="70px">
                             <use href="./images/symbol-defs.svg#icon-group-opt "></use>
                          </svg>
                     </div>
@@ -113,7 +113,7 @@
                 
                 <li class="features-card">
                     <div class="features-card__item">
-                        <svg class="features-card__icon" width="70" ; height="70" ;>
+                        <svg class="features-card__icon" width="70" height="70">
                             <use href="./images/symbol-defs.svg#icon-clock-opt"></use>
                         </svg>
                     </div>
@@ -125,7 +125,7 @@
 
                 <li class="features-card">
                     <div class="features-card__item">
-                        <svg class="features-card__icon" width="70" ; height="70" ;>
+                        <svg class="features-card__icon" width="70" height="70" >
                             <use href="./images/symbol-defs.svg#icon-diagram-opt"></use>
                         </svg>
                     </div>
@@ -137,7 +137,7 @@
 
                 <li class="features-card"> 
                          <div class="features-card__item">
-                        <svg class="features-card__icon" width="70" ; height="70" ;>
+                        <svg class="features-card__icon" width="70" height="70">
                              <use href="./images/symbol-defs.svg#icon-astronaut-opt"></use>
                          </svg> 
                     </div>
@@ -214,14 +214,14 @@
                             <ul class="social-links">
                                 <li class="social-links__item">
                                     <a href="" class="social-links__link" >
-                                        <svg class="social-links__icon"width="20" height="20">
+                                        <svg class="social-links__icon" width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-instagram-opt"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-links__item">
                                     <a href="" class="social-links__link">
-                                        <svg class="social-links__icon"width="20" height="20" >
+                                        <svg class="social-links__icon" width="20" height="20" >
                                             <use href="./images/symbol-defs.svg#icon-twitter-opt"></use>
                                         </svg>
                                     </a>
@@ -235,7 +235,7 @@
                                 </li>
                                 <li class="social-links__item">
                                     <a href="" class="social-links__link">
-                                        <svg class="social-links__icon"width="20" height="20">
+                                        <svg class="social-links__icon" width="20" height="20">
                                             <use href="./images/symbol-defs.svg#icon-linkedin-opt"></use>
                                         </svg>
                                     </a>
@@ -326,7 +326,8 @@
                                             <use href="./images/symbol-defs.svg#icon-instagram-opt"></use>
                                         </svg>
                                     </a>
-                                </li class="social-links__item">
+                                </li>
+                                <li class="social-links__item">
                                
                                     <a href="" class="social-links__link">
                                         <svg class="social-links__icon" width="20" height="20">
@@ -553,8 +554,6 @@
           </svg>
         </button>
 
-<form class="modal__form">
-
     <p class="form-title ">Оставьте свои данные, мы вам перезвоним</p>
 
           
@@ -566,9 +565,7 @@
                 <use href='./images/symbol-defs.svg#icon-name'></use>
             </svg>
         </label>
-       
-       </label>
-            
+                  
                 <label  class="form-input-box">
                     Телефон 
 
@@ -594,7 +591,7 @@
                      
             
                 
-                       <label for="comment"class="form-input-box">
+                       <label for="comment" class="form-input-box">
                            Комментарий
                          <textarea
                          class="form-message" 
