@@ -1,0 +1,53 @@
+.activities-section {
+  padding-top: 0;
+}
+.activities-list {
+  display: flex;
+
+  &__image-link {
+    text-decoration: none;
+    color: #757575;
+    margin-bottom: 0;
+  }
+
+  &__item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  &__picture-text {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    margin: 0;
+    padding: 25px 0;
+    background: rgba(47, 48, 58, 0.8);
+
+    z-index: 1;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.activities-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activities-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: Center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
