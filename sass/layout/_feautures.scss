@@ -2,17 +2,23 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
   }
 }
 
 .features-card {
+  width: 100%;
+
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 60px) / 2);
     margin: 15px;
   }
 
   @media screen and (min-width: 1200px) {
-    flex-basis: calc((100% - 90px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
   }
 
   &:not(:last-child) {
@@ -22,7 +28,6 @@
   }
 
   &__features-title {
-    display: flex;
     margin: 0;
     margin-bottom: 10px;
 

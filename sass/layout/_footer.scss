@@ -1,12 +1,29 @@
-.adress-box {
-  display: flex;
-  align-items: baseline;
-}
-
 .adress-section {
   background-color: var(--dark-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-box {
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.adress-box {
+  text-align: center;
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .adress-box__label {
@@ -42,19 +59,36 @@
   color: var(--navigation-color);
 }
 
-.adress-box__bottom-brake {
+.adress-box__logo {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  font-family: Raleway, sans-serif;
+  @include text(26px, 1.2, 700);
+
   margin-bottom: 20px;
 }
-
+.footer-box__logo {
+  text-decoration: none;
+}
 .adress-box__borders {
   margin: 0 0 9px;
 }
 
 .join {
   color: var(--accent-color);
+  text-align: center;
 
   &__box {
-    margin-left: 70px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 165px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;
+    }
   }
   &__label {
     margin-bottom: 20px;
@@ -63,10 +97,14 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
   }
 
   &__list {
     display: flex;
+    justify-content: center;
   }
 
   &__item:not(:last-child) {
@@ -90,7 +128,13 @@
   }
 }
 .subscribe__box {
-  margin-left: auto;
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    text-align: left;
+  }
 }
 .subscribe__label {
   margin-bottom: 20px;
@@ -102,15 +146,23 @@
   color: #fff;
 }
 .subscribe__list {
-  display: flex;
-  margin-top: 20px;
-  flex-direction: row;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  // margin-top: 20px;
 }
 
 .subscribe__input {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+
   padding-left: 16px;
   height: 50px;
   min-width: 358px;
+  width: 100%;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
