@@ -71,6 +71,7 @@
 }
 .menu-button.is-open .icon-cross {
   display: block;
+  z-index: 10;
 }
 
 .menu-button.is-open .icon-menu {
@@ -90,13 +91,15 @@
       overflow: hidden;
       background-color: white;
       width: 100%;
-      height: 100vh;
+      height: 100%;
 
       top: 0;
       left: 0;
       padding: 40px 48px;
 
       align-items: baseline;
+
+      z-index: 1;
     }
   }
 }
@@ -117,19 +120,25 @@
     padding: 21px 0;
   }
 
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    margin-right: auto;
+  }
+
   &__link {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      @include text(12px, 1.2, 500);
+      margin-left: 84px;
+    }
     @media screen and (min-width: 1200px) {
       padding-top: 32px;
-      padding-bottom: 32px;
+
       font-weight: 500;
       font-size: 14px;
       line-height: 1.2;
       letter-spacing: 0.02em;
     }
-    @media screen and (min-width: 768px) {
-      @include text(12px, 1.2, 500);
-      margin-left: 84px;
-    }
+
     display: flex;
     align-items: center;
 
