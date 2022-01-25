@@ -206,6 +206,7 @@ img {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
@@ -245,12 +246,13 @@ img {
   .buttons-list__item {
     margin-bottom: 15px;
   }
+  .buttons-list__item:nth-child(-n + 3) {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .buttons-list__item {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
 }
 
 .buttons-list__item:hover,
