@@ -242,11 +242,8 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .buttons-list__item:nth-child(-n + 3) {
+  .buttons-list__item {
     margin-bottom: 15px;
-  }
-  .buttons-list__item:nth-child(-n + 2) {
-    margin-bottom: 40px;
   }
 }
 

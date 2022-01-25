@@ -114,15 +114,13 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  @media screen  and (max-width: 767px) {
-     
-      margin-bottom: 15px;
-    }
-
-    &:nth-child(-n + 2) {
-      margin-bottom: 40px;
-    }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 15px;
   }
+
+  // &:nth-child(-n + 2) {
+  //   margin-bottom: 15px;
+  // }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
@@ -140,3 +138,8 @@
 .buttons-list__space:not(:last-child) {
   margin-right: 8px;
 }
+// .buttons-list__space {
+//   @media screen and (max-width: 767px) {
+//     margin-bottom: 30px;
+//   }
+// }
