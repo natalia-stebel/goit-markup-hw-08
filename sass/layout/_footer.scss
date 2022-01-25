@@ -1,11 +1,15 @@
 .adress-section {
   background-color: var(--dark-background-color);
   padding-top: 60px;
-  padding-bottom: 60px;
+
+  @media screen and (min-width: 480px) and (max-width: 1119px) {
+    padding-bottom: 60px;
+  }
 }
 
 .footer-box {
   text-align: center;
+  margin-bottom: 0;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -128,6 +132,10 @@
   }
 }
 .subscribe__box {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+
   @media screen and (min-width: 768px) {
     margin: 0 auto;
   }

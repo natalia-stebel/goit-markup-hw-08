@@ -67,8 +67,8 @@
     <symbol id="icon-linkedin-opt" viewBox="0 0 32 32">
         <path  d="M31.992 32h0.008v-11.738c0-5.741-1.237-10.163-7.947-10.163-3.227 0-5.392 1.77-6.277 3.45h-0.093v-2.914h-6.365v21.363h6.627v-10.578c0-2.786 0.528-5.48 3.978-5.48 3.398 0 3.448 3.179 3.448 5.658v10.402h6.621zM0.528 10.635h6.635v21.365h-6.635v-21.365zM3.843 0c-2.123 0-3.843 1.721-3.843 3.843v0c0 2.12 1.722 3.878 3.843 3.878 2.12 0 3.842-1.757 3.842-3.878s-1.72-3.841-3.841-3.843h-0z"></path>
     </symbol>
-    
-<symbol id="icon-menu_24px" viewBox="0 0 48 32"><path d="M0 5.333V0h48v5.333H0zm0 13.334h48v-5.333H0v5.333zM0 32h48v-5.333H0V32z"/></symbol>
+
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="icon-menu_24px" viewBox="0 0 48 32"><path d="M0 5.333V0h48v5.333H0zm0 13.334h48v-5.333H0v5.333zM0 32h48v-5.333H0V32z"/></symbol>
 <svg width="24" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.667V0h24v2.667H0Zm0 6.666h24V6.667H0v2.666ZM0 16h24v-2.667H0V16Z" fill="#000"/></svg>
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><defs>
 <symbol id="icon-close-1" viewBox="0 0 32 32">
